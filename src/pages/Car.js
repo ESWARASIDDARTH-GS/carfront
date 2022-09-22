@@ -6,8 +6,8 @@ import axios from 'axios'
 import { DatePicker } from 'antd';
 import moment from 'moment';
 import { rentCar } from '../redux/actions/rent'
-import { useDispatch, useSelector } from 'react-redux'
-import { getAllCars } from '../redux/actions/actions'
+import { useDispatch } from 'react-redux'
+
 import {Link} from 'react-router-dom';
 
 

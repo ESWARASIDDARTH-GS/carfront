@@ -1,10 +1,10 @@
 import './App.css';
-import {BrowserRouter as Router,Routes,Route,BrowserRouter} from 'react-router-dom'
+import { Routes,Route,BrowserRouter} from 'react-router-dom'
 import Home from './pages/Home'
 import Login from './pages/Login'
 import Register from './pages/Register'
 import Car from './pages/Car'
-import { ToastContainer, toast } from 'react-toastify';
+import { ToastContainer } from 'react-toastify';
 import Payment from './pages/Payment';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'react-toastify/dist/ReactToastify.css'
