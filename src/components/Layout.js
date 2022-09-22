@@ -9,8 +9,8 @@ const Layout = (props) => {
 
                 </div>
                 <div className="col">
-                <span>Hello</span>
-                <a href="/login" className='login'>Login</a>
+                {/* <span>Hello</span>
+                <a href="/login" className='login'>Login</a> */}
 
                 </div>
 
