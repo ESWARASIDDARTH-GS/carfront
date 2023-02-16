@@ -41,7 +41,7 @@ const Car = ({match}) => {
   const fetchData = async () => {
         
       try {
-        const result = await axios.get(`https://carrentback.herokuapp.com/api/cars/car/${carId}`);
+        const result = await axios.get(`https://carbackend-5pgf.onrender.com/api/cars/car/${carId}`);
         console.log(result.data);
         setCar(result.data)
 
